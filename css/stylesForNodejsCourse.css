@@ -1,0 +1,157 @@
+body{
+	background-color: #B6B6B6;
+	width:100%;
+}
+.container{
+	background-color:#FFFFFF;
+}
+
+
+#forDemo{
+	padding: 20px;
+}
+#browseCourses{
+	padding:20px 10px;
+	background-color: #34495e;
+	
+}
+#yourBrowsedCourse{
+	background-color: #31b0d5;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+#sectionalHeader{
+	background-color: #e7e7e7;
+	margin-top:20px;
+	margin-bottom: 10px;
+	padding: 10px 0 5px 0;
+}
+.breadcrumb{
+	background-color:transparent;
+
+}
+#sectionalHeader img{
+	max-height: 100px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.courseDay{
+	width:45px;
+	text-align: center;
+	font-weight: 900;
+	color:#FFFFFF;
+	padding:10px 0;
+	background-color: #9ed154;
+}
+#courseStart{
+	margin: 20px 0;
+}
+a, a:visited,a:link,a:active, a:hover{
+	text-decoration: none;
+}
+#accordion2 .panel-heading,#accordion .panel-heading{
+	background-color: #d9edf7;
+}
+.tab-content {
+    border: 1px solid #ddd;
+    border-top:none!important;    
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+#content{
+	margin-bottom: 30px;
+}
+
+#content h3,#syllabus h4,#sampleVideo h3{
+	color:#a7d154;
+}
+#faq li{
+	padding:30px;
+
+}
+#ourLatestTweets{
+	margin-bottom: 30px;
+}
+#ourLatestTweets blockquote img{
+	max-height: 50px;
+	max-width: 50px;
+
+}
+#ourLatestTweets q{
+	padding:40px;
+	font-size: 13px;
+}
+footer{
+	padding:10px 20px;
+}
+footer address{
+	font-weight: bold;
+	font-size: 17px;
+}
+#headerStrated{
+	background-color: #20b2aa;
+	padding:10px;
+	margin-top: 20px;
+}
+#headerStrated img{
+	max-width: 100px;
+	max-height: 100px;
+	margin:0 auto;
+}
+
+.socialSites img{
+
+	display: inline-block;
+	padding:0 10px 0 0;
+
+}
+#requestForOnsite{
+	background-color: #e7e7e7;
+	padding:10px 10px;
+}
+#requestForOnsite h3{
+	font-size: 20px;
+}
+#requestForOnsite span{
+	position:relative;
+	top:-20px;
+	border: 1px solid #040404;
+	padding:10px;
+}
+#contactUsSideBar{
+	background-color: #e7e7e7;
+	margin:20px 0;
+	height:145px;
+}
+#contactUsSideBar span{
+	border: 1px solid #040404;
+	padding:10px;
+	font-size: 25px;
+	margin:0 18px;
+
+}
+#contactUsSideBar h3{
+	padding:15px;
+	font-size: 30px;
+}
+#gotAquery{
+	background-color: #e7e7e7;
+	padding:10px 15px;
+}
+#gotAquery input,#gotAquery textarea{
+	padding:20px;
+	margin:15px 0;
+}
+#tagsSidebar a{
+	margin:10px 5px 0 0;
+}
+#footerStyle{
+	background-color: #d7d7d7;
+}
+
+
+

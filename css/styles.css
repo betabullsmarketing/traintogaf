@@ -1,0 +1,225 @@
+body{
+	font-size:12px;
+	
+	text-align: justify;
+}
+h1, h2,h3,h4{
+	font-family: 'Dosis', sans-serif;
+}
+em{
+	font-family: 'Lobster Two', cursive;
+}
+html,
+body { height: 100%; }
+ 
+body {
+  display: table;
+  width: 100%;
+}
+#logo{
+	padding-top:12px;
+	margin-bottom: 5px;
+
+}
+.workWithYou h3{
+	font-size: 20px;
+}
+.navbar{
+	margin-bottom: 10px;
+}
+
+.logoTop{
+	margin-top: 15px;
+}
+.logoTop button{
+	font-weight: 900;
+}
+.footer {
+  display: table-row;
+  height: 1px;
+}
+
+#contactUs { height: 100%; }
+#workWithUs{ font-size:14px; }
+
+.jumbotron{
+	background-color: #22b4aa;
+	
+	text-align: center;
+}
+.jumbotron h2{
+	padding: 30px 0 0px 0;
+}
+.jumbotron h2 em{
+	background:#FFFFFF;
+	color: #111111;
+	
+}
+.captioned{
+	margin-bottom: 20px;
+}
+.jumbotron h3{
+	font-weight: 900;
+	
+	padding-bottom: 6px;
+}
+.courseImages img{
+	height:230px;
+	text-align:center;
+	padding:0 20px 0 30px;
+	position:absolute;
+	z-index:99;
+	top:25px;
+}
+
+#coursesOffered{
+	margin-bottom: 30px;
+}
+
+.aboutMission{
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+#footerStyle{
+	background-color: #d7d7d7;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.socialSites i{
+
+	
+	padding:0 10px 0 0;
+
+}
+.img1{
+	color:#3B5998;
+	padding:0 10px 0 0;
+}
+.img2{
+	color:#050505;
+	padding:0 10px 0 0;
+}
+.img3{
+	color:#dd4b39;
+	padding:0 10px 0 0;
+}
+.img4{
+	color:#0274b3;
+	padding:0 10px 0 0;
+}
+.img5{
+	color:#3cf;
+	padding:0 10px 0 0;
+}
+footer{
+	padding:10px 20px;
+}
+.ourCourses{
+	border:1px solid #D6D6D6;
+	padding:10px;
+	font-size: 12px;
+	margin-bottom: 10px;
+
+}
+.ourCourses img{
+	width:544px;
+	height:300px;
+}
+#aboutUsHeading{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+.padded{
+	padding:30px 0;
+}
+.adressSize{
+	font-size: 15px;
+}
+.adressSize strong{
+	font-size: 25px;
+}
+
+
+#content{
+	padding-top: 60px;
+}
+.courseContent{
+	padding-top: 60px;
+}
+.headerModal{
+	padding-bottom: 45px;
+}
+.headerModal p{
+	padding-top: 25px;
+}
+ #map-container { 
+ 	height: 300px;
+ 	width:553px;
+ 	margin-bottom: 50px;
+ }
+ 
+      @media only screen and (min-width : 768px) {
+        .navbar-collapse{
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    
+    float: none;
+}
+
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+@media only screen and (min-width : 992px) {
+        .navbar-collapse{
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .logoTop{
+        	text-align: right;
+        }
+        #coursesOffered img{
+	height:135px;
+	width:240.5px;
+}
+.ourCourses p{
+	min-height: 137px;
+}
+
+    }
+
+    
+
+
+
