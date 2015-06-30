@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://traingap.com/</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://traingap.com/index.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://traingap.com/aboutUs.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://traingap.com/courses.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://traingap.com/contactus.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://traingap.com/workwithus.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://traingap.com/BigData_Hadoop_Classroom_Training_in_Hyderabad.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://traingap.com/Node_JS_Classroom_Training_in_Hyderabad.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://traingap.com/SixSigma_Classroom_Training_in_Hyderabad.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://traingap.com/DotNet_Classroom_Training_in_Hyderabad.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://traingap.com/Share_Point_Classroom_Training_in_Hyderabad.html</loc>
+  <lastmod>2015-06-16T10:51:37+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
