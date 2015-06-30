@@ -217,13 +217,21 @@ footer{
 	min-height: 137px;
 }
 
-    }
+}
 
 .yourTogafImage{
 	margin:0 auto;
 }
-
-    
+.moneyRedeem{
+	font-size: 25px;
+}
+.popper{
+	cursor:pointer;
+}
+ .yourIconGlyph{
+  font-size: 25px;
+  color: #5CB85C;
+}
 
 
 
