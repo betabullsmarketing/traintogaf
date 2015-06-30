@@ -136,10 +136,14 @@
 
                     </div>
                     <div class="col-xs-5 col-sm-3 pull-right">
+                      <strong class="moneyRedeem">$1199</strong>
                       <a class="btn btn-block btn-success" data-toggle="modal" href="#myModal">
-                        <span class="glyphicon glyphicon-tasks pull-left" aria-hidden="true"></span> Register Now
+                        <i class="fa fa-shopping-cart"></i> Pay Now
                       </a>
-
+                      <strong class="popper" data-toggle="popover">Redeem a Coupon</strong>
+                     
+<div class="popper-content hide">Enter Your Coupon Here<br><input type="text"><a href="#"><span class="yourIconGlyph glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>  </div>
+     
                     </div>
                   </div>
                 </div>
@@ -662,6 +666,17 @@ Tools, techniques and methods for architectural development </li>
 		$('[data-toggle="tooltip"]').tooltip()
 		})
 	</script>
+  <script type="text/javascript">
+    $('.popper').popover({
+    placement: 'bottom',
+    container: 'body',
+    html: true,
+    content: function () {
+        return $(this).next('.popper-content').html();
+    }
+});
+
+  </script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
