@@ -1,6 +1,6 @@
 function init_map() {
-    var var_location = new google.maps.LatLng(17.468501, 78.367347);
- 
+    var var_location = new google.maps.LatLng(40.278305, -74.830549);
+
         var var_mapoptions = {
           center: var_location,
           zoom: 17
@@ -9,7 +9,7 @@ function init_map() {
     var var_marker = new google.maps.Marker({
       position: var_location,
             map: var_map,
-      title:"Train Gap, Sai Boda's Nilayam, Shilpa Park, Kondapur, Hyderabad-500084."});
+      title:"Mountain View Office Park, 850 Bear Tavern Road, Suite 105, Ewing, NJ 08628"});
  
         var var_map = new google.maps.Map(document.getElementById("map-container"),
             var_mapoptions);
