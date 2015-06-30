@@ -124,10 +124,10 @@ footer{
 .ourCourses img{
 	width:544px;
 	height:300px;
-}
+}/*
 #aboutUsHeading{
 	margin-bottom: 10px;
-}
+}*/
 
 
 
@@ -218,6 +218,10 @@ footer{
 }
 
     }
+
+.yourTogafImage{
+	margin:0 auto;
+}
 
     
 
