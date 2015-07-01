@@ -131,8 +131,11 @@ footer address{
 	border: 1px solid #040404;
 	padding:10px;
 	font-size: 25px;
-	margin:0 18px;
+	margin:0 5px 0 18px;
 
+}
+#contactUsSideBar p{
+	 font-size:20px;
 }
 #contactUsSideBar h3{
 	padding:15px;
