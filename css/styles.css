@@ -58,6 +58,12 @@ a,a:visited,a:hover,a:active,a:link{
 	text-decoration: none;
 
 }
+.yourArchitech{
+	  font-size: 16px;
+}
+.yourArchitech i{
+	color:green;
+}
 
 
 
