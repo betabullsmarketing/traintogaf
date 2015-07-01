@@ -40,8 +40,24 @@ h1, h2,h3,h4{
   color: #333;
 
 }
+.columnParaSize p{
+	font-size:14px;
+  margin-bottom: 5px;
+}
+.columnBorders{
+	border-left: 1px solid;
+	border-right: 1px solid
+}
+#sectionalHeader h3{
 
+	text-align: initial !important;
+	  margin: 5px;
+}
 
+a,a:visited,a:hover,a:active,a:link{
+	text-decoration: none;
+
+}
 
 
 
