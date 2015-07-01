@@ -6,6 +6,54 @@ body{
 h1, h2,h3,h4{
 	font-family: 'Dosis', sans-serif;
 }
+.yourTogafImage{
+	margin:0 auto;
+}
+.moneyRedeem{
+	font-size: 39px;
+}
+.popper{
+	cursor:pointer;
+}
+ .yourIconGlyph{
+  font-size: 25px;
+  color: #5CB85C;
+}
+.popover{
+	left:723.625px !important;
+
+}
+.yourStyleMoneys{
+	margin:20px 0 0 40px;
+  
+}
+
+#logo button.btn.btn-default{
+	color: #26ade3;
+  font-size: 25px;
+  font-weight: normal;
+  padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 em{
 	font-family: 'Lobster Two', cursive;
 }
@@ -219,25 +267,4 @@ footer{
 
 }
 
-.yourTogafImage{
-	margin:0 auto;
-}
-.moneyRedeem{
-	font-size: 25px;
-}
-.popper{
-	cursor:pointer;
-}
- .yourIconGlyph{
-  font-size: 25px;
-  color: #5CB85C;
-}
-.popover{
-	left:723.625px !important;
-
-}
-.yourStyleMoneys{
-	margin:20px 0 0 40px;
-  
-}
 
