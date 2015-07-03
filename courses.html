@@ -117,8 +117,8 @@
                               <div class="col-xs-5 col-sm-3 pull-right">
                                   <div class="yourStyleMoneys">
                                       <strong class="moneyRedeem">$999</strong> <br>
-                                      <strong class="popper" data-toggle="popover">Redeem a Coupon</strong>
-                                      <div class="popper-content hide">
+                                      
+                                      <div class="popper-content">
                                           Enter Your Coupon Here<br>
                                           <input id="discountcouponText" name="discountcouponText" type="text" value=""/>
                                         <!--  <input class="discountcouponText" id="discountcouponText" value="" type="text" />-->
@@ -753,28 +753,6 @@
           <script type="text/javascript" class="source">
               $('.prettySocial').prettySocial();
 
-              $(function () {
-                  $('[data-toggle="tooltip"]').tooltip()
-              })
-
-              $('.popper').popover({
-                  placement: 'bottom',
-                  container: 'body',
-                  html: true,
-                  content: function () {
-                      return $(this).next('.popper-content').html();
-                  }
-              });
-
-                $('body').on('click', function (e) {
-    $('[data-toggle="popover"]').each(function () {
-        //the 'is' for buttons that trigger popups
-        //the 'has' for icons within a button that triggers a popup
-        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-            $(this).popover('hide');
-        }
-    });
-});
 
 
 
@@ -800,19 +778,20 @@
                      
                       
 
-                     var texcode = $(".popover #discountcouponText").val();
+                     var texcode = $("#discountcouponText").val();
                       
                       if (texcode == 'JUL10') {
                           var amount = $('#amount').val();
-                          amount = (amount) * (10 / 100)
+                          amount = (amount) * (10 / 100);
+                          var efamount= $('#amount').val()-amount;
                           $('#discount_amount').val(amount);
                        
-                          $('.popover #success').html('<br>You got successfully 10% off..!');
-                          $('.popover #invalid').html('');
+                          $('#success').html('<br>You got successfully 10% off..!<br>your affected price: '+efamount);
+                          $('#invalid').html('');
                       }
                       else {
-                          $('.popover #success').html('');
-                          $('.popover #invalid').html('<br>Invalid coupon code / coupon code expired..!');
+                          $('#success').html('');
+                          $('#invalid').html('<br>Invalid coupon code / coupon code expired..!');
                         
 
                           
