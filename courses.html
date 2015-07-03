@@ -786,12 +786,12 @@
                           var efamount= $('#amount').val()-amount;
                           $('#discount_amount').val(amount);
                        
-                          $('#success').html('<br>You got successfully 10% off..!<br>your affected price: '+efamount);
+                          $('#success').html('<br>Coupon applied successfully.<br>Final price: $'+efamount);
                           $('#invalid').html('');
                       }
                       else {
                           $('#success').html('');
-                          $('#invalid').html('<br>Invalid coupon code / coupon code expired..!');
+                          $('#invalid').html('<br>Invalid or expired promo code');
                         
 
                           

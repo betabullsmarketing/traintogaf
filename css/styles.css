@@ -11,6 +11,7 @@ h1, h2,h3,h4{
 }
 .moneyRedeem{
 	font-size: 39px;
+	  padding-left: 30px;
 }
 .popper{
 	cursor:pointer;
@@ -24,7 +25,10 @@ h1, h2,h3,h4{
 
 }
 #discountcouponApply{
-	margin:5px 0 0 0;
+	margin:5px 0 0 43px;
+}
+.yourStyleMoneys {
+  margin-left: 20px;
 }
 #logo button.btn.btn-default{
 	color: #26ade3;
