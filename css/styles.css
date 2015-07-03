@@ -23,11 +23,9 @@ h1, h2,h3,h4{
 	left:723.625px !important;
 
 }
-.yourStyleMoneys{
-	margin:20px 0 0 40px;
-  
+#discountcouponApply{
+	margin:5px 0 0 0;
 }
-
 #logo button.btn.btn-default{
 	color: #26ade3;
   font-size: 25px;
