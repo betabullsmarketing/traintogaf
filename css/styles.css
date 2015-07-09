@@ -13,6 +13,9 @@ h1, h2,h3,h4{
 	font-size: 39px;
 	  padding-left: 30px;
 }
+.captioned b{
+	  font-size: 25px;
+}
 .popper{
 	cursor:pointer;
 }
