@@ -11,7 +11,7 @@ height:140px !important;
 .bgimage1{
   padding: 5px 0 10px !important;
 }
-.images{
+/*.images{
 position: relative !important; 
 left: 0 !important; 
 top: 0 !important;
@@ -20,6 +20,10 @@ width:573px !important;
 margin-left:281px !important;
 margin-top:15px !important;
 
+}*/
+.images{
+position: relative !important;
+padding: 15px 0 10px 281px!important;
 }
 .background-img{
 position: relative !important; 
@@ -29,8 +33,8 @@ width:100% !important;
 }
 .joinnow{
 position: absolute !important;
- bottom: 4px !important; 
- right: 5px !important;
+ bottom: 10px !important; 
+ right: 8% !important;
 }
 img.wp-smiley,
 img.emoji {
@@ -59,3 +63,11 @@ img.emoji {
 		
 		
 .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+
+@media screen and (max-width: 480px) {
+	.img-logo
+	{
+		padding: 0 0 0 0 !important;
+	}
+}
